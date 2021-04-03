@@ -15,14 +15,34 @@
         <h1>Rocket Launch Simulator!</h1>
     </header>
     <main class="main">
-        <article class="intro">
-            <p>This is a Rocket launch simulator, please enter inputs for launch, then press the launch button. Happy Simulation!</p>
+        <!--article class="intro">
+            <p>This is a Rocket launch simulator. Please enter inputs for launch, then press the launch button. Happy Simulation!</p>
         </article><!-- .intro -->
-        <section class = "simulation">
-            <canvas class = "game">
-                <!--.canvas for where the simulation will occur-->
-            </canvas>
-        </section>
+            <!--table>
+                <canvas for where the simulation will occur>
+				<tr>
+					<div class="tablehead-border-wrap"><th class="tablehead">MASS</th>
+					<th class="tablehead">THRUST</th>
+					<th class="tablehead">THRUST TIME</th></div>
+				</tr>
+            </table-->
+			
+		<div class="module-border-wrap">
+			<form>
+				<div class="module">
+					<label for="mass">MASS: </label>
+					<input type="text" id="mass" name="mass"><br><br>
+					
+					<label for="thrust">THRUST: </label>
+					<input type="text" id="thrust" name="thrust"><br><br>
+					
+					<label for="thrusttime">THRUST TIME: </label>
+					<input type="text" id="thrusttime" name="thrusttime"><br><br>
+					
+					<button type="button" class="submitbutton">Submit</button>
+				</div>
+			</form>
+		</div>		
     </main>
 
 </body>
