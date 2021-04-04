@@ -1,6 +1,11 @@
 // @codekit-prepend "/vendor/hammer-2.0.8.js";
 
 $( document ).ready(function() {
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+ctx.fillStyle = "#807c7c"
+ctx.fillRect = (0,0,300,600);
+console.log("hello");
 
   // DOMMouseScroll included for firefox support
   var canScroll = true,
@@ -272,6 +277,8 @@ $( document ).ready(function() {
     });
 
   }
+
+
 
   outerNav();
   workSlider();

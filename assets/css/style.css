@@ -691,4 +691,45 @@ body{
 .play h2{
     margin:0 0 20px 0;font-size:30px;text-align:center
 }
+canvas{
+    border: 1px solid #ffffff;
+    
+}
+#playButton{
+    display:inline-block;
+    background-color: black;
+    padding: 15px 32px;
+    border:0.1em solid #FFFFFF;
+    margin: 20px 2px;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-size: 16px;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+    }
+#playButton:hover{
+    color:#000000;
+    background-color:#FFFFFF;
+ }
+ #resetButton{
+    display:inline-block;
+    background-color: black;
+    padding: 15px 32px;
+    border:0.1em solid #FFFFFF;
+    margin: 20px 2px;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-size: 16px;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+    }
+#resetButton:hover{
+    color:#000000;
+    background-color:#FFFFFF;
+ }
+
 
