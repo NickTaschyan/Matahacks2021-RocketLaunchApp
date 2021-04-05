@@ -86,9 +86,6 @@ button::-moz-focus-inner,input::-moz-focus-inner{
 .center{
     text-align:center!important
 }
-.row{
-    
-}
 .quarter{
     width:24.99999%;
     display: inline-block;
@@ -695,12 +692,16 @@ canvas{
     border: 1px solid #ffffff;
     
 }
+.simulation{
+    height: 100%;
+    width: 150%;
+}
+
 #playButton{
     display:inline-block;
     background-color: black;
     padding: 15px 32px;
     border:0.1em solid #FFFFFF;
-    margin: 20px 2px;
     border-radius:0.12em;
     box-sizing: border-box;
     text-decoration:none;
@@ -718,7 +719,6 @@ canvas{
     background-color: black;
     padding: 15px 32px;
     border:0.1em solid #FFFFFF;
-    margin: 20px 2px;
     border-radius:0.12em;
     box-sizing: border-box;
     text-decoration:none;
@@ -726,10 +726,49 @@ canvas{
     color:#FFFFFF;
     text-align:center;
     transition: all 0.2s;
+    margin-left: 20px;
     }
 #resetButton:hover{
     color:#000000;
     background-color:#FFFFFF;
  }
+.slider-info{
+    margin: 0;
+    font-size: 22px;
+}
+.range-slider {
+      border-radius: 5px;
+      padding-right: 10px;
+    }
+.mass-range {
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+.thrust-range {
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+.thrusttime-range {
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+.float-container {
+    width: 20%;
+    float: left;
+    padding: 20px;
+}  
+.spacebox {
+    height:50px;
+}
+  
+  
+  
+  
 
 

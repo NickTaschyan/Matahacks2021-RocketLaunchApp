@@ -79,7 +79,7 @@
                       <a href="https://github.com/NickTaschyan" style="text-decoration: none; color: white">
                       <img src="assets/img/git-Nick.png" alt="Nick" style="width:45%" class="circle hover-opacity">
                       <h3>Nick</h3>
-                      <p>TEMP</p>
+                      <p>Web Design</p>
                       </a>
                     </div>
 
@@ -112,13 +112,34 @@
           <li class="l-section section">
             <div class="play">
               <!--<img src="assets/img/game-placeholder.png">-->
-              <section class = "simulation">
+              <div class = "simulation">
+                <div class = "spacebox"></div>
                 <canvas id = "myCanvas">
                 <!--.canvas for where the simulation will occur-->
                 </canvas>
-                <button id = "playButton">Play</button>
-                <button id = "resetButton">Reset</button>
-              </section>
+                <div class="range-slider">
+                  <div class = "float-container">
+                    <p class = "slider-info">Mass (KG)</p>
+                    <input class="mass-range" orient="vertical" type="range" step="10" value="1200" min="1200" max="12500">
+                    <span class="mass-value"></span>
+                  </div>
+                  <div class = "float-container">
+                    <p class = "slider-info">Thrust (Newtons)</p>
+                    <input class="thrust-range" orient="vertical" type="range" step="100" value="25000" min="100" max="162000">
+                    <span class="thrust-value"></span>
+                  </div>
+                  <div class = "float-container">
+                    <p class = "slider-info">Thrust-Time (Sec)</p>
+                    <input class="thrusttime-range" orient="vertical" type="range" step="20" value="20" min="0" max="140">
+                    <span class="thrusttime-value"></span>
+                  </div>
+                </div>
+              
+              </div> 
+               <div class= "buttonBlock">
+                  <button id = "playButton">Play</button>
+                  <button id = "resetButton">Reset</button>
+                </div>
             </div>
           </li>
         </ul>
